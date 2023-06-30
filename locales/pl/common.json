@@ -1,0 +1,620 @@
+{
+  "homepage": "Strona główna",
+  "events": "Wydarzenia",
+  "signIn": "Zaloguj się",
+  "signOut": "Wyloguj się",
+  "registration": "Rejestracja",
+  "login": "Logowanie",
+  "polish": "Polski",
+  "english": "Angielski",
+  "client": "Klient",
+  "chooseLanguage": "Wybierz język",
+  "welcomeLabel": "Witaj",
+  "myAccount": "Moje konto",
+  "buttonBuyTicket": "Kup bilet",
+  "buttonRemoveCard": "Usuń kartę",
+  "buttonDetails": "Szczegóły",
+  "buttonCheckDetails": "Zobacz szczegóły",
+  "buttonLoadMore": "Wczytaj więcej",
+  "buttonEdit": "Edytuj",
+  "buttonExportPDF": "Eksportuj jako PDF",
+  "buttonPrintPDF": "Wydrukuj podsumowanie PDF",
+  "buttonCheckEvents": "Zobacz inne wydarzenia",
+  "buttonSaveChanges": "Zapisz zmiany",
+  "buttonMyTickets": "Przejdź do moich biletów",
+  "buttonSendConfirmation": "Wyślij wiadomość potwierdzającą",
+  "buttonConvertAccount": "Przekształć konto",
+  "buttonAddUser": "Dodaj użytkownika",
+  "buttonAddCase": "Dodaj nową sprawę",
+  "subTitleWhatToday": "Co chcesz dzisiaj zrobić?",
+  "subTitleManageData": "Zarządzaj danymi swoich użytkowników",
+  "subTitleBackToUserList": "Wróć do listy użytkowników",
+  "activeTicket": "Aktywne bilety",
+  "myCardsLabel": "Moje karty",
+  "myCardsSubTitle": "Dodaj karty i przypisz je do użytkowników",
+  "cardDataLabel": "Dane karty",
+  "dataCarrier": "Nośnik",
+  "dataCarrierType": "Rodzaj nośnika",
+  "cardNumber": "Numer karty",
+  "user": "Użytkownik",
+  "amount": "Kwota",
+  "activationDate": "Data aktywacji",
+  "actDate": "Ważny od",
+  "expDate": "Ważny do",
+  "status": "Status",
+  "updated": "Zaktualizowano",
+  "active": "Aktywny",
+  "inactive": "Nieaktywny",
+  "transactionHistory": "Historia transakcji",
+  "filter": "Filtruj",
+  "saveFilters": "Zapisz filtry",
+  "filterMobileLabel": "Zawęź wyniki wyszukiwania poprzez filtry",
+  "transactionID": "ID transakcji",
+  "transactionDate": "Data transakcji",
+  "owner": "Właściciel",
+  "type": "Rodzaj",
+  "complaint": "Reklamacja",
+  "refund": "Zwrot pieniędzy",
+  "validityTerm": "Termin ważności",
+  "cardDetails": "Szczegóły karty",
+  "backCardList": "Wróć do listy kart",
+  "cancel": "Anuluj",
+  "close": "Zamknij",
+  "back": "Cofnij",
+  "closed": "Zamknięta",
+  "userCreated": "Użytownik został utworzony",
+  "goToUserList": "Przejdź do listy użytkowników",
+  "enter6CardNumber": "Podaj 6 pierwszych numerów karty",
+  "enter4LastDigits": "Podaj 6 pierwszych cyfr oraz 4 ostatnie",
+  "addNewCard": "Dodaj nową kartę",
+  "updateCard": "Zaktualizuj kartę",
+  "removeCardModalHeadline": "Czy napewno chcesz usunąć kartę?",
+  "removeCardModalSubheadline": "Karta Mbank, o numerze {{number}} przypisana do użytkownika {{user}}",
+  "addNewDataCarrierInfo": "Dodaj nośnik na którym będziesz przechowywał bilety i przypisz go do użytkownika.",
+  "updateDataCarrierInfo": "Zaktualizuj nośnik na którym będziesz przechowywał bilety i przypisz go do użytkownika.",
+  "serachCard": "Wyszukaj kartę",
+  "cardType": "Rodzaj karty",
+  "eventDate": "Data wydarzenia",
+  "serachEvent": "Wyszukaj wydarzenie",
+  "datePick": "Wybierz datę",
+  "incoming": "Nadchodzące",
+  "ended": "Zakończone",
+  "finished": "Zakończona",
+  "inProgress": "W trakcie",
+  "yourCases": "Twoje sprawy",
+  "seeAll": "Zobacz wszystkie",
+  "noCases": "Nie posiadasz żadnych spraw do rozpatrzenia.",
+  "noTickets": "Nie posiadasz żadnych biletów",
+  "yourTickets": "Twoje bilety",
+  "wallet": "Portmonetka",
+  "accBalance": "Twoje saldo",
+  "reachargeAcc": "Doładuj konto",
+  "enterMsg": "Wpisz wiadomość",
+  "allowFormat": "(Do 3 plików o rozmiarze 1 MB. Dozwolone formaty : png, jpg, pdf)",
+  "backToCasesList": "Wróć do listy spraw",
+  "caseStartDate": "Data założenia sprawy",
+  "caseEndDate": "Data zamknięcia sprawy",
+  "caseType": "Rodzaj sprawy",
+  "caseReopen": "Wznów sprawę",
+  "notificationDate": "Data zgłoszenia",
+  "caseReopenConfirmation": "Czy napewno chcesz wznowić sprawę?",
+  "serachCase": "Wyszukaj sprawę",
+  "caseStatus": "Status sprawy",
+  "accountStatus": "Status konta",
+  "createNewCase": "Zgłoś nową sprawę",
+  "createCase": "Zgłoś sprawę",
+  "makeCase": "Załóż sprawę",
+  "caseCreateDescription": "Opisz dokładnie swoją sprawę przy użyciu formularza kontaktowego.",
+  "caseTypeChose": "Wybierz rodzaj sprawy",
+  "enterCaseTitle": "Podaj tytuł sprawy",
+  "caseTitle": "Tytuł sprawy",
+  "caseDescription": "Opis sprawy",
+  "enterCaseDescription": "Dokładnie opisz sprawę",
+  "attachFiles": "+ Załącz pliki",
+  "street": "Ulica",
+  "houseNumber": "Nr domu",
+  "apartmentNumber": "Numer mieszkania",
+  "apartmentNumberShort": "Nr mieszkania",
+  "city": "Miasto",
+  "zip": "Kod pocztowy",
+  "documentType": "Typ dokumentu",
+  "documentNumber": "Nr dokumentu",
+  "expirationDate": "Data ważności",
+  "expirationDatePlaceholder": "mm/RR",
+  "verified": "Zweryfikowany",
+  "notVerified": "Niezweryfikowany",
+  "name": "Imię",
+  "enterName": "Podaj imię",
+  "surname": "Nazwisko",
+  "enterSurname": "Podaj nazwisko",
+  "pesel": "Numer PESEL",
+  "enterPesel": "Podaj PESEL",
+  "email": "Adres email",
+  "enterEmail": "Podaj adres email",
+  "phone": "Numer telefonu",
+  "enterPhone": "Podaj numer telefonu",
+  "oldPass": "Stare hasło",
+  "enterPass": "Podaj hasło",
+  "newPass": "Nowe hasło",
+  "repeatPass": "Powtórz hasło",
+  "setNewPass": "Ustaw nowe hasło",
+  "defineNewPass": "Zdefiniuj nowe hasło",
+  "defineNewPassInfo": "Zdefiniuj nowe hasło do swojego konta, zgodne z wymaganiami bezpieczeństwa.",
+  "myData": "Moje dane",
+  "manageData": "Zarządzaj danymi na swoim koncie",
+  "basicInformation": "Dane podstawowe",
+  "editBasicInformation": "Edytuj dane podstawowe",
+  "editData": "Edytuj dane",
+  "yourAdress": "Adres zamieszkania",
+  "editYourAdress": "Edytuj adres zamieszkania",
+  "registeredAddress": "Adres zameldowania",
+  "editRegisteredAddress": "Edytuj adres zameldowania",
+  "eligibleDiscounts": "Przysługujące zniżki",
+  "numberID": "Numer legitymacji",
+  "discountName": "Nazwa zniżki",
+  "verificationDate": "Data weryfikacji",
+  "documentStatus": "Status dokumentu",
+  "editPassword": "Zmiana hasła",
+  "changeHistory": "Historia zmian",
+  "checkChangeHistory": "Zobacz historię zmian",
+  "choseCarrierTickets": "Wybierz nośnik i bilety",
+  "choseCarrier": "Wybierz nośnik",
+  "choseCarrierType": "Wybierz rodzaj nośnika",
+  "configureTickets": "Skonfiguruj bilety",
+  "summary": "Podsumowanie",
+  "yourOrder": "Twoje zamówienie",
+  "toPay": "Do zapłaty",
+  "goFurther": "Przejdź dalej",
+  "choseActivationDate": "Wybierz datę aktywacji biletu",
+  "ticketExpDate": "Bilet ważny do",
+  "validAllMonth": "Ważny cały miesiąc",
+  "saveConfirmationPDF": "Zapisz potwierdzenie PDF",
+  "choseTicketActivationDate": "Wybierz daty aktywacji dla biletów",
+  "purchasedTicketsDateInfo": "Zakupione bilety zostaną aktywowane w określonym dniu i godzinie.",
+  "thanksYourTickets": "Dziękujemy, Twoje bilety zostały zakupione",
+  "thanksYourTicketsInProgress": "Dziękujemy, Twoja płatność jest przetwarzana.",
+  "confirmationMailSent": "Wysłaliśmy potwierdzenie transakcji na Twój adres email",
+  "confirmationMailSentInProgress": "Po zakończeniu płatności zostanie wysłane potwierdzenie transakcji na Twój adres email",
+  "proposedTickets": "Bilety proponowane",
+  "showAll": "Pokaż wszystkie",
+  "serachTicket": "Wyszukaj bilet",
+  "ticket": "Bilet",
+  "makeStandaloneAcc": "Przekształć konto na niezależne",
+  "makeStandaloneAccInfo": "Czy chcesz przekształcić konto tego użytkownika na konto niezależne? Wyślemy do użytkownika na podany adres e-mail wiadomość weryfikującą. Po jej akceptacji, zostanie on odpięty do Twojego konta i stanie się kontem niezależnym. Wymagane będzie uzupełnienie danych przez nowego użytkownika z poziomu jego konta.",
+  "independentAccHeadline": "Możesz przekształcić to konto na konto niezależne",
+  "independentAccInfo": "Konto zostanie przekształcone na niezależne konto i odpięte od Twojego konta głównego",
+  "userData": "Dane użytkownika",
+  "registrationDate": "Data rejestracji",
+  "deleteAcc": "Usuń Konto",
+  "delete": "Usuń",
+  "clear": "Wyczyść",
+  "walletBalance": "Saldo portomonetki",
+  "deleteAccInfo": "Czy chcesz usunąć to konto użytkownika",
+  "passReset": "Reset hasła",
+  "backToLogin": "Wróć do logowania",
+  "enterMailForLink": "Podaj swój adres email, na który wyślemy Ci link do resetu hasła",
+  "resetEmailInfo": "Na podany adres email wysłaliśmy link do resetu hasła. Link jest ważny jeszcze przez",
+  "resetLinkClick": "Kliknij w otrzymany link aby zresetować hasło.",
+  "price": "Cena",
+  "discountLabel": "Zniżka",
+  "stepLabel": "Krok",
+  "buyTicketsLabel": "Kup bilety",
+  "cardNameLabel": "Nadaj nazwę karty",
+  "cardNamePlaceholder": "Np. Moja Karta Płatnicza",
+  "currencyLabel": "zł",
+  "birthday_date": "Data urodzenia",
+  "backToTickets": "Wróć do wyboru biletów",
+  "sellTickets": "Sprzedaż Biletów",
+  "changeUser": "Zmień Klienta",
+  "selectedUser": "Wybrany Klient",
+  "from": "z",
+  "recordsCount": "rekordów",
+  "recordsPerPage": "rekordów na stronę",
+  "noResults": "Brak wyników",
+  "newDiscountCase": "Złóż nowy wniosek",
+  "editDiscount": "Złóż wniosek",
+  "receipt": "Paragon",
+  "invoice": "Faktura",
+  "validation": {
+    "exists": "The selected e-mail is invalid.",
+    "email": {
+      "invalid": "Wprowadź poprawny adres e-mail!",
+      "notMatch": "Adresy email muszą się zgadzać."
+    },
+    "password": {
+      "required": "Wprowadź poprawne hasło",
+      "min": "Hasło musi zawierać minimum 8 znaków",
+      "minLowercase": "Hasło musi zawierać przynajmniej 1 małą literę",
+      "minUppercase": "Hasło musi zawierać przynajmniej 1 dużą literę",
+      "minSymbols": "Hasło musi zawierać przynajmniej 1 znak specjalny",
+      "notMatch": "Hasła muszą się zgadzać"
+    },
+    "phone": {
+      "notMatch": "Format numeru telefonu: XXXXXXXXX"
+    },
+    "pesel": {
+      "valid": "PESEL powinien zawierać 11 cyfr",
+      "isPesel": "Uzupełnij informację czy posiadasz PESEL",
+      "test": "Niepoprawny numer PESEL"
+    },
+    "required": "Pole jest wymagane",
+    "terms": {
+      "required": "Musisz zaakceptować warunki i postanowienia."
+    }
+  },
+  "header": {
+    "common": {
+      "chooseLanguage": "Wybierz język",
+      "welcomeLabel": "Witaj",
+      "myAccount": "Moje konto",
+      "signOut": "Wyloguj się",
+      "registration": "Rejestracja",
+      "signIn": "Zaloguj się",
+      "clientPanel": "Panel klienta",
+      "adminPanel": "Panel POK"
+    },
+    "link": {
+      "homepage": "Strona główna",
+      "events": "Wydarzenia",
+      "usersDatabase": "Baza Klientów",
+      "sellTickets": "Sprzedaż Biletów",
+      "reports": "Raporty",
+      "administration": "Administracja"
+    },
+    "language": {
+      "polish": "Polski",
+      "english": "Angielski"
+    },
+    "button": {
+      "buyTicket": "Kup bilet"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Logowanie",
+      "content": "Witaj w systemie Mera. Zaloguj się używając adresu email podanego przy rejestracji, lub identyfikatora Klienta przypisanego do Twojego konta",
+      "remember": "Nie pamiętasz hasła?",
+      "doYouHaveAccount": "Nie posiadasz konta w systemie?",
+      "register": "Przejdź do rejestracji",
+      "pok": {
+        "title": "Logowanie",
+        "content": "Witaj w systemie obsługi Klienta Mera."
+      }
+    },
+    "register": {
+      "title": "Rejestracja",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. *",
+      "formDataTitle": "Dane podstawowe:",
+      "formTermslTitle": "Oświadczenia:"
+    },
+    "resetPassword": {
+      "title": "Reset hasła",
+      "content": "Podaj swój adres email, na który wyślemy Ci link do resetu hasła",
+      "backToLogin": "Wróc do logowania",
+      "info": "Na podany adres email wysłaliśmy link do resetu hasła. Link jest ważny jeszcze przez",
+      "linkClick": "Kliknij w otrzymany link aby zresetować hasło."
+    },
+    "newPassword": {
+      "title": "Zdefiniuj nowe hasło",
+      "content": "Zdefiniuj nowe hasło do swojego konta, zgodne z wymaganiami bezpieczeństwa."
+    },
+    "updatePassword": {
+      "title": "Aktualizuj hasło",
+      "content": "Twoje hasło nie spełnia aktualnych wymagań bezpieczeństwa - wymagane jest utworzenie nowego hasła zgodnego z wytycznymi.",
+      "contentCode": "Na Twój adres email wysłaliśmy 5-cyfrowy kod autoryzacyjny. Wklej go w pole poniżej, aby zweryfikować zmianę hasła."
+    },
+    "transform": {
+      "title": "Przekształć konto",
+      "content": "Witaj w systemie Mera. Konto zostanie przekształcone na niezależne konto i odpięte od konta głównego."
+    }
+  },
+  "panel": {
+    "tickets": {
+      "choiceCard": {
+        "title": "Wybierz nośnik i bilety"
+      }
+    },
+    "links": {
+      "dashboard": "Dashboard",
+      "customerData": "Dane klienta",
+      "transactionHistory": "Historia transakcji",
+      "cases": "Sprawy",
+      "wallet": "Portmonetka",
+      "events": "Wydarzenia",
+      "cards": "Karty",
+      "myCards": "Moje karty",
+      "tickets": "Bilety",
+      "myTickets": "Moje bilety",
+      "users": "Użytkownicy",
+      "myUsers": "Moi użytkownicy",
+      "myData": "Moje dane",
+      "usersDatabase": "Baza Klientów",
+      "sellTickets": "Sprzedaż Biletów",
+      "casesList": "Lista spraw",
+      "reports": "Raporty",
+      "reportsSelling": "Raport sprzedaży",
+      "reportsSellingByType": "Sprzedaż po typie",
+      "reportsCards": "Zablokowane karty",
+      "administration": "Administracja",
+      "roles": "Uprawnienia użytkowników"
+    },
+    "cases": {
+      "newForm": {
+        "title": "Zgłoś sprawę",
+        "content": "Opisz dokładnie swoją sprawę przy użyciu formularza kontaktowego."
+      }
+    },
+    "wallet": {
+      "walletPageHeadline": "Portmonetka",
+      "walletPageSubHeadline": "Miejsce w którym możesz doładować swoje konto prepaid do wykorzystania do zapłaty za bilety",
+      "balance": "Saldo",
+      "personalBalance": "Twoje saldo",
+      "userBalance": "Saldo użytkownika",
+      "personalBalancePoints": "{{points}} pkt ( {{points}} zł )",
+      "transaction": "Transakcja",
+      "walletModalHeadline": "Doładuj konto",
+      "walletModalSubHeadline": "Doładuj środki do swojej portmonetki.",
+      "userWalletModalSubHeadline": "Doładuj środki wybranemu użytkownikowi",
+      "walletModalInfo": "Zostaniesz przekierowany do systemu płatności w celu opłacenia zamowienia",
+      "close": "Zamknij",
+      "createCardBtn": "Utwórz nową kartę",
+      "completeAccountBtn": "Chcę uzupełnić konto",
+      "youWillGet": "Otrzymasz",
+      "points": "pkt",
+      "new": "Oczekuje na płatność",
+      "completed": "Doładowano środki",
+      "substractFunds": "Odjęto środki",
+      "failed": "Anulowane"
+    },
+    "transactionHistory": {
+      "transactionHistory": "Historia transakcji",
+      "transactionHistorySubHeadline": "Sprawdź historię wszystkich transakcji",
+      "searchTransaction": "Wyszukaj transakcję",
+      "exportToPdf": "Eksportuj do PDF"
+    }
+  },
+  "thankYouTitle": "Dziękujemy",
+  "thankYouDescription": "Twoje konto zostało założone. Możesz się zalogować i uzupełnić pozostałe dane.",
+  "goToLoginPage": "Przejdź do logowania",
+  "incompleteAccountLabel": "Dane Twojego konta są niekompletne",
+  "incompleteAccountInfo": "Uzupełnij niezbędne dane i dokończ aktywację konta w kilku krokach",
+  "completeDataBtn": "Uzupełnij dane",
+  "customerDatabase": "Baza Klientów",
+  "casesList": "Lista spraw",
+  "reportsSelling": "Raport sprzedaży",
+  "reportsSellingByType": "Raport sprzedaży po typie",
+  "reportsCards": "Raport zablokowanych kart",
+  "cases": {
+    "status": {
+      "complaint": "Reklamacja",
+      "refund": "Zwrot biletu",
+      "refund_money": "Zwrot pieniędzy"
+    }
+  },
+  "filters": {
+    "title": "Filtruj",
+    "content": "Zawęź wyniki wyszukiwania poprzez filtry"
+  },
+  "accStatus": "Status konta",
+  "serachCustomer": "Wyszukaj Klienta (imię, nazwisko, NIP)",
+  "walletPageHeadline": "Portmonetka",
+  "walletPageSubHeadline": "Miejsce w którym możesz doładować swoje konto prepaid do wykorzystania do zapłaty za bilety",
+  "balance": "Saldo",
+  "personalBalance": "Twoje saldo",
+  "personalBalancePoints": "{{points}} pkt ( {{points}} zł )",
+  "transaction": "Transakcja",
+  "walletModalHeadline": "Doładuj konto",
+  "walletModalSubHeadline": "Doładuj środki do swojej portmonetki.",
+  "walletModalInfo": "Zostaniesz przekierowany do systemu płatności w celu opłacenia zamowienia",
+  "goPayment": "Przejdź do płatności",
+  "createCardBtn": "Utwórz nową kartę",
+  "completeAccountBtn": "Chcę uzupełnić konto",
+  "youWillGet": "Otrzymasz",
+  "points": "pkt",
+  "transactionHistorySubHeadline": "Sprawdź historię wszystkich transakcji",
+  "searchTransaction": "Wyszukaj transakcję",
+  "exportToPdf": "Eksportuj do PDF",
+  "requiredFields": "Pola wymagane",
+  "editCase": "Edytuj sprawę",
+  "pok": {
+    "customerData": {
+      "none": "Brak",
+      "passwordChangeLinkReset": "Wyślij link z resetem hasła",
+      "cards": {
+        "addCard": "Dodaj kartę",
+        "cardBlockModalHeadline": "Czy na pewno chcesz zablokować kartę?",
+        "cardUnblockModalHeadline": "Czy na pewno chcesz odblokować kartę?",
+        "block": "Zablokuj",
+        "createCard": "Utwórz nową kartę"
+      },
+      "tickets": {
+        "cardBlockModalHeadline": "Czy na pewno chcesz zablokować bilet?",
+        "cardUnblockModalHeadline": "Czy na pewno chcesz odblokować bilet?"
+      },
+      "events": {
+        "none": "Brak"
+      },
+      "backToCustomerData": "Wróć do danych klienta",
+      "forms": {
+        "password": {
+          "headline": "Zmień hasło",
+          "subHeadline": "Uzupełnij poniższe dane, w celu zmiany hasła. Pamiętaj, aby hasło spełniało wszelkie wymogi bezpieczeństwa."
+        },
+        "reset_password": {
+          "headline": "Czy na pewno chcesz zresetować hasło tego użytkownika?",
+          "subHeadline": "Użytkownik dostanie link na swoją pocztę"
+        },
+        "generalData": {
+          "headline": "Dane podstawowe - Edycja",
+          "subHeadline": "Edytuj dane podstawowe"
+        },
+        "addressResidential": {
+          "headline": "Adres zamieszkania - Edycja",
+          "subHeadline": "Edytuj adres zamieszkania"
+        },
+        "addressRegistered": {
+          "headline": "Adres zameldowania - Edycja",
+          "subHeadline": "Edytuj adres zameldowania"
+        },
+        "document": {
+          "headline": "Przysługujące zniżki - Edycja",
+          "subHeadline": "Edytuj przysługujące zniżki"
+        },
+        "status": {
+          "headline": "Status konta - Edycja",
+          "subHeadline": "Edytuj status konta"
+        }
+      },
+      "historyChanges": {
+        "address_registered": "Zmiana adresu zameldowania",
+        "address_residential": "Zmiana adresu zamieszkania",
+        "address_company": "Zmiana adresu firmy",
+        "profile": "Zmiana danych podstawowych",
+        "card": "Aktualizacja nośnika",
+        "my_user": "Aktualizacja w moi uzytkownicy",
+        "my_profile": "Aktualizacja w moje dane",
+        "my_address_residential": "Zmiana adresu zamieszkania",
+        "my_address_registered": "Zmiana adresu zameldowania",
+        "my_address_company": "Zmiana adresu firmy",
+        "my_card": "Aktualizacja nośnika",
+        "user": "Aktualizacja w moi uzytkownicy"
+      }
+    },
+    "dashboard": {
+      "searchCustomerHeadline": "Wyszukaj Klienta",
+      "searchEngineLabel": "Skorzystaj z wyszukiwarki, lub zeskanuj nośnik danych.",
+      "casesList": "Lista spraw",
+      "activeCases": "Sprawy w trakcie",
+      "archiveCases": "Archiwum spraw"
+    },
+    "casesList": {
+      "addNewCase": "Dodaj nową sprawę"
+    },
+    "caseDetails": {
+      "generalInfo": "Informacje podstawowe",
+      "caseStatus": "Status sprawy",
+      "info": {
+        "client": "Klient",
+        "created_at": "Data zgłoszenia",
+        "updated_at": "Ostatnia aktualizacja",
+        "operator": "Operator",
+        "type": "Rodzaj sprawy",
+        "related_transaction": "Powiązana transakcja"
+      }
+    }
+  },
+  "pages": {
+    "404": {
+      "title": "Przepraszamy, nie mogliśmy znaleźć tej strony.",
+      "content": "Ale nie martw się, możesz znaleźć wiele innych rzeczy na naszej stronie głównej.",
+      "linkText": "Wróć do strony głównej"
+    },
+    "home": {
+      "content": "H1 - Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "buttonText": "Kup bilet",
+      "events": {
+        "title": "Nadchodzące wydarzenia lokalne",
+        "buttonText": "Zobacz wszystkie wydarzenia"
+      }
+    },
+    "tickets": {
+      "expirationTo": "Bilet ważny do:"
+    },
+    "administration": {
+      "title": "Administracja",
+      "sections": {
+        "content": {
+          "title": "Zarządzanie treścią",
+          "tabs": {
+            "messages": "Komunikaty informacyjne",
+            "pages": "Podstrony informacyjne",
+            "navigation": "Menu",
+            "footer": "Stopka",
+            "rules": "Oświadczenia",
+            "files": "Pliki",
+            "colors": "Kolorystyka / Logo",
+            "notifications": "Notyfikacje / Wiadomości"
+          }
+        },
+        "tickets": {
+          "title": "Bilety",
+          "tabs": {
+            "list": "Lista biletów",
+            "tariffs": "Taryfy",
+            "discounts": "Zniżki",
+            "connects": "Linie",
+            "zones": "Strefy"
+          }
+        },
+        "users": {
+          "title": "Użytkownicy",
+          "tabs": {
+            "list": "Lista użytkowników admin",
+            "permissions": "Uprawnienia dostępu"
+          }
+        },
+        "events": {
+          "title": "Wydarzenia",
+          "tabs": {
+            "list": "Lista wydarzeń",
+            "categories": "Kategoria wydarzeń"
+          }
+        },
+        "settings": {
+          "title": "Inne ustawienia"
+        }
+      },
+      "users": {
+        "title": "Użytkownicy",
+        "buttonText": "Dodaj nowego użytkownika"
+      },
+      "createUser": {
+        "title": "Dodaj nowego użytkownika"
+      },
+      "editUser": {
+        "title": "Edycja użytkownika"
+      },
+      "roles": {
+        "title": "Uprawnienia użytkowników",
+        "buttonText": "Dodaj nową rolę"
+      },
+      "editRole": {
+        "title": "Edycja uprawnień"
+      }
+    }
+  },
+  "account": {
+    "type": {
+      "main": "Główne",
+      "child": "Podopieczny"
+    }
+  },
+  "discounts": {
+    "isDiscountLabel": "Czy jesteś uprawniony do zniżki?",
+    "input": {
+      "discountType": {
+        "label": "Wybierz rodzaj zniżki",
+        "placeholder": "Wybierz rodzaj zniżki"
+      },
+      "documentType": {
+        "label": "Rodzaj dokumentu",
+        "placeholder": "Wybierz rodzaj dokumentu"
+      },
+      "documentNumber": {
+        "label": "Numer dokumentu",
+        "placeholder": "Podaj numer"
+      },
+      "expirationDate": {
+        "label": "Termin ważności zniżki"
+      }
+    },
+    "files": {
+      "headline": "Wgraj skan dokumentu",
+      "info": "Pamiętaj, żeby załączyć czytelne skany obydwu stron dokumentu. Skany dokumentów zostaną przesłane do weryfikacji przez pracownika POKu. Weryfikacji możesz też dokonać w lokalnym Punkcie Obsługi Klienta",
+      "frontInputLabel": "Przód dokumentu",
+      "backInputLabel": "Tył dokumentu"
+    },
+    "formatsLabel": "Dopuszczalne formaty",
+    "maxFileWeightLabel": "Max rozmiar"
+  }
+}

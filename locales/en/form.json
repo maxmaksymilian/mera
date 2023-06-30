@@ -1,0 +1,410 @@
+{
+  "auth": {
+    "register": {
+      "formTermsTitle": "Oświadczenia:"
+    }
+  },
+  "validation": {
+    "exists": "Podany adres e-mail nie istsnieje",
+    "company": {
+      "nip": "Numer powinien składać się z 10 cyfr"
+    },
+    "address": {
+      "street": {
+        "min": "Minimum 3 znaki",
+        "max": "Maksimum 30 znaków"
+      },
+      "number": {
+        "min": "Minimum 1 znak",
+        "max": "Maksimum 5 znaków"
+      },
+      "city": {
+        "min": "Nazwa miasta powinna składać się przynajmniej z 3 znaków",
+        "max": "Nazwa miasta powinna składać się z maksymlanie 30 znaków"
+      },
+      "apt_number": {
+        "onlyNumbers": "Dozwolone są tylko cyfry"
+      },
+      "zip": {
+        "format": "Dozwolony format: XX-XXX"
+      }
+    },
+    "email": {
+      "invalid": "Wprowadź poprawny adres e-mail!",
+      "notMatch": "Adresy email muszą się zgadzać."
+    },
+    "password": {
+      "required": "Wprowadź poprawne hasło",
+      "min": "Hasło musi zawierać minimum 8 znaków",
+      "minLowercase": "Hasło musi zawierać przynajmniej 1 małą literę",
+      "minUppercase": "Hasło musi zawierać przynajmniej 1 dużą literę",
+      "minSymbols": "Hasło musi zawierać przynajmniej 1 znak specjalny",
+      "notMatch": "Hasła muszą się zgadzać"
+    },
+    "phone": {
+      "notMatch": "Format numeru telefonu: XXXXXXXXX"
+    },
+    "pesel": {
+      "valid": "PESEL powinien zawierać 11 cyfr",
+      "isPesel": "Uzupełnij informację czy posiadasz PESEL",
+      "test": "Niepoprawny numer PESEL"
+    },
+    "required": "Pole jest wymagane",
+    "terms": {
+      "required": "Musisz zaakceptować warunki i postanowienia."
+    },
+    "auth": {
+      "failed": "Podane dane są niepoprawne. Spróbuj ponownie."
+    },
+    "validation": {
+      "exist": "Wybrany :attribute jest już zajęty.",
+      "unique": "Podany :attribute jest już zajęty.",
+      "have_card": "Wybrany :attribute jest już przypisany do innej karty.",
+      "after_or_equal": "Pole :attribute musi być datą nie wcześniejszą niż aktualna.",
+      "exists": "Podany adres e-mail nie istsnieje",
+      "required": "Wypełnij wymagane pola.",
+      "password": {
+        "uncompromised": "Podane hasło nie jest wystarczająco mocne. Użyj mocniejszego hasła."
+      }
+    },
+    "user": {
+      "firstName": "Wprowadź poprawne imię",
+      "lastName": "Wprowadź poprawne nazwisko"
+    },
+    "telephone": {
+      "min": "Numer powinien składać się conajmniej z 9 cyfr",
+      "max": "Numer powinien składać się z maksymalnie 10 cyfr"
+    },
+    "passwords": {
+      "throttled": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "choiceCard": "Wybierz nośnik i bilety",
+    "case": {
+      "title": {
+        "required": "Wpisz tytuł sprawy",
+        "min": "Minimum 4 znaki",
+        "max": "Maksymalnie 255 znaków"
+      },
+      "description": {
+        "required": "Opisz swoją sprawę",
+        "min": "Minimum 10 znaków",
+        "max": "Maksymalnie 1000 znaków"
+      }
+    },
+    "card": {
+      "id": {
+        "required": "Wybierz nośnik"
+      },
+      "name": {
+        "required": "Wpisz nazwę karty",
+        "min": "Nazwa karty powinna zawierać conajmniej 5 znaków",
+        "max": "Nazwa karty powinna zawierać maksymalnie 35 znaków"
+      },
+      "type": {
+        "required": "Wybierz rodzaj nośnika"
+      },
+      "status": {
+        "required": "Wybierz staus"
+      },
+      "number": {
+        "required": "Wpisz numer karty",
+        "emvCardMatch": "Numer powinien składać się z 10 cyfr",
+        "studentCardMatch": "Numer powinien składać się z 6 cyfr",
+        "cityCardMin": "Minimum 3 cyfry",
+        "cityCardMax": "Maksymalnie 25 cyfr",
+        "cardMin": "Numer powinien składać się z 3 cyfr"
+      },
+      "expiration_date": {
+        "required": "Podaj datę ważności",
+        "match": "Wymagany format: mm/RR"
+      },
+      "user": {
+        "required": "Wybierz użytkownika z listy"
+      },
+      "title": "Wpisz tytuł sprawy",
+      "description": "Opisz swoją sprawę",
+      "city_card": {
+        "min": "Minimum 3 cyfry",
+        "max": "Maksymalnie 25 cyfr"
+      }
+    },
+    "file": {
+      "format": "Dozwolony format plików: .png, .pdf, .jpg",
+      "max": "Maksymalna liczba plików: 3",
+      "maxSize": "Maksymalna waga jednego pliku to 1MB"
+    },
+    "label": {
+      "order": {
+        "item": {
+          "activation_date": "data aktywacji"
+        }
+      },
+      "card": {
+        "number": "numer karty",
+        "user": "użytkownik"
+      },
+      "user": {
+        "card_number": "numer karty",
+        "email": "adres email"
+      },
+      "wallet": {
+        "positive": "Wartość musi być większa niż 1"
+      }
+    }
+  },
+  "button": {
+    "login": "Zaloguj się",
+    "resetPassword": "Wyślij reset hasła",
+    "changePassword": "Zmień hasło",
+    "saveChanges": "Zapisz zmiany",
+    "saveChange": "Zapisz zmianę",
+    "createAccount": "Załóż konto",
+    "filters": "Filtry",
+    "saveFilters": "Zapisz filtry",
+    "cancel": "Anuluj",
+    "addNewCard": "Dodaj nową kartę",
+    "createNewCase": "Zgłoś nową Sprawę",
+    "createUser": "Dodaj użytkownika",
+    "goNext": "Przejdź dalej",
+    "createCase": "Załóż sprawę",
+    "goPayment": "Przejdź do płatności",
+    "exportToPdf": "Eksportuj do PDF",
+    "submit": "Potwierdź",
+    "block": "Zablokuj",
+    "unblock": "Odblokuj",
+    "createCard": "Utwórz nową kartę",
+    "checkEvents": "Zobacz inne wydarzenia",
+    "goFurther": "Przejdź dalej",
+    "startReturn": "Rozpocznij zwrot",
+    "exportFilters": "Eksportuj wyfiltrowane",
+    "confirmChangePassword": "Potwierdź zmianę hasła",
+    "saveAdmin": "Zapisz użytkownika",
+    "saveRole": "Zapisz uprawnienia"
+  },
+  "label": {
+    "expirationDateDiscount": "Termin ważności zniżki",
+    "email": "Adres email",
+    "typeEmail": "Podaj adres email",
+    "emailRepeat": "Powtórz email",
+    "emailOrId": "Adres email / Numer ID",
+    "password": "Hasło",
+    "newPassword": "Nowe hasło",
+    "oldPasswordType": "Podaj stare hasło",
+    "passwordType": "Podaj hasło",
+    "passwordRepeat": "Powtórz hasło",
+    "first_name": "Imię",
+    "typeFirst_name": "Podaj imię",
+    "last_name": "Nazwisko",
+    "typeLast_name": "Podaj nazwisko",
+    "havePesel": "Czy posiadasz numer PESEL?",
+    "yesOrNo": "TAK/NIE",
+    "pesel": "Numer PESEL",
+    "typePesel": "Podaj numer PESEL",
+    "telephone": "Numer telefonu",
+    "typeTelephone": "Podaj numer telefonu",
+    "telephone_prefix": "Prefiks nr telefonu",
+    "birthday_date": "Data urodzenia",
+    "typeBirthday_date": "Podaj datę urodzenia",
+    "searchTicket": "Wyszukaj bilet",
+    "choiceDate": "Wybierz datę",
+    "status": "Status",
+    "user": "Użytkownik",
+    "cardUser": "Właściciel / Użytkownik",
+    "card": "Karta",
+    "cardType": "Rodzaj karty",
+    "caseType": "Rodzaj sprawy",
+    "caseStatus": "Status sprawy",
+    "operator": "Operator",
+    "searchCase": "Wyszukaj sprawę",
+    "searchTransactions": "Wyszukaj transakcje",
+    "ticketType": "Rodzaj biletu",
+    "searchCity": "Miasto",
+    "searchUser": "Wyszukaj klienta",
+    "searchCustomer": "Wyszukaj Klienta (imię, nazwisko, NIP)",
+    "searchAdmin": "Wyszukaj użytkownika",
+    "searchCustomerDropdown": "Imię / Nazwisko / Numer PESEL",
+    "addCardName": "Nadaj nazwę karty",
+    "exampleCardName": "Np. Moja Karta Płatnicza",
+    "typeCard": "Rodzaj dokumentu",
+    "choiceTypeCard": "Wybierz rodzaj dokumentu",
+    "numberCard": "Numer karty",
+    "numberCardSix": "_ _ _ _ _ _",
+    "expirationDateCard": "Data Ważności",
+    "exampleExpirationDateCard": "mm/RR",
+    "caseOperator": "Opiekun sprawy",
+    "relatedTransaction": "Powiązana transakcja",
+    "choiceCaseType": "Wybierz rodzaj sprawy",
+    "typeCaseTitle": "Podaj tytuł sprawy",
+    "caseTitle": "Tytuł sprawy",
+    "caseDescription": "Opis sprawy",
+    "typeCaseDescription": "Dokładnie opisz sprawę",
+    "attachFiles": "Załącz pliki",
+    "searchEvent": "Wyszukaj wydarzenie",
+    "chooseStatus": "Wybierz status",
+    "street": "Ulica",
+    "houseNumber": "Nr domu",
+    "apartmentNumberShort": "Nr mieszkania",
+    "city": "Miasto",
+    "zip": "Kod pocztowy",
+    "documentType": "Typ dokumentu",
+    "documentNumber": "Nr dokumentu",
+    "expirationDate": "Data ważności",
+    "expirationDatePlaceholder": "mm/RR",
+    "verified": "Zweryfikowany",
+    "notVerified": "Niezweryfikowany",
+    "cardStatus": "Status karty",
+    "chooseCardType": "Wybierz rodzaj nośnika",
+    "choiceCard": "Wybierz nośnik",
+    "cardName": "Nadaj nazwę karty",
+    "cardNameExample": "Np. Moja Karta Płatnicza",
+    "cardNumber": "Numer karty",
+    "time": "Godzina",
+    "searchUserDropdown": "Wpisz imię, nazwisko lub pesel",
+    "setType": "Wybierz rodzaj",
+    "companyName": "Nazwa firmy",
+    "addressNumber": "Nr domu",
+    "nip": "Numer NIP",
+    "cash": "Gotówka",
+    "creditCard": "Karta Płatnicza",
+    "client": "Klient",
+    "updated_at": "Ostatnia aktualizacja",
+    "created_at": "Data zgłoszenia",
+    "case_type": "Rodzaj sprawy",
+    "related_transaction": "Powiązana transakcja",
+    "caseEmployee": "Opiekun sprawy",
+    "value": "Wartość",
+    "choiceFilter": "Wybierz filtr",
+    "codeType": "Kod 2FA",
+    "permissions": "Uprawnienia",
+    "roles": "Role",
+    "typeName": "Podaj nazwę",
+    "typeRoleName": "Podaj nazwę uprawnień"
+  },
+  "options": {
+    "active": "Aktywne",
+    "not_active": "Niekatywne",
+    "chooseStatus": "Wybierz status",
+    "empty": "Brak",
+    "clear": "Wyczyść",
+    "yesOrNo": {
+      "yes": "Tak",
+      "no": "Nie"
+    },
+    "havePesel": {
+      "yes": "Tak",
+      "no": "Nie"
+    },
+    "is_pesel": {
+      "yes": "Tak",
+      "no": "Nie"
+    },
+    "status": {
+      "active": "Aktywny",
+      "not_active": "Nieaktywny",
+      "new": "Nowa",
+      "in_progress": "W trakcie",
+      "closed": "Zamknięta",
+      "payed": "Zapłacone",
+      "completed": "Zakończona",
+      "canceled": "Anulowana",
+      "failed": "Anulowana",
+      "brak": "Brak"
+    },
+    "type": {
+      "city_card": "Karta miejska",
+      "emv_card": "Karta płatnicza (kredytowa / debetowa)",
+      "student_card": "Legitymacja studencka",
+      "complaint": "Reklamacja",
+      "refund": "Zwrot pieniędzy",
+      "eq": "Równe",
+      "diff": "Różne niż",
+      "lt": "Mniejsze niż",
+      "lte": "Mniejsze lub równe",
+      "gt": "Większe niż",
+      "gte": "Większe lub równe",
+      "bet": "Pomiędzy bez",
+      "betw": "Pomiędzy z",
+      "empty": "Puste",
+      "nempty": "Niepuste"
+    },
+    "card_type": {
+      "city_card": "Karta miejska",
+      "emv_card": "Karta płatnicza (kredytowa / debetowa)",
+      "student_card": "Legitymacja studencka",
+      "complaint": "Reklamacja"
+    },
+    "document_type": {
+      "receipt": "Paragon",
+      "invoice": "Faktura VAT"
+    },
+    "downloadFile": {
+      "pdf": "Eksportuj do PDF",
+      "txt": "Eksportuj do Txt",
+      "html": "Eksportuj do HTML",
+      "csv": "Eksportuj do CSV",
+      "xlsx": "Eksportuj do XLSX"
+    }
+  },
+  "steps": {
+    "step": "Krok",
+    "label": {
+      "userData": "Dane podstawowe",
+      "choiceCard": "Wybierz nośnik",
+      "choiceCardAndTickets": "Wybierz nośnik i bilety",
+      "configTickets": "Skonfiguruj bilety",
+      "summary": "Podsumowanie",
+      "payment": "Płatność"
+    },
+    "chooseStatus": "Wybierz status"
+  },
+  "paymentMethod": "Metoda płatności",
+  "transactionDocument": "Dokument sprzedaży",
+  "permission": {
+    "card": {
+      "card": "Moduł nośników od klienta"
+    },
+    "cases": {
+      "case": "Moduł spraw klienta",
+      "case_list": "Moduł wszystkich spraw"
+    },
+    "customer": {
+      "customer": "Moduł bazy klientów"
+    },
+    "discount": {
+      "discount": "Moduł wszystkich zniżek"
+    },
+    "employee": {
+      "user": "Moduł administracji użytkowników",
+      "role": "Moduł administracji uprawnień"
+    },
+    "event": {
+      "my_events": "Moduł wydarzeń klienta"
+    },
+    "myticket": {
+      "my_ticket": "Moduł biletów klienta"
+    },
+    "myusers": {
+      "my_user": "Moduł podopiecznych klienta"
+    },
+    "order": {
+      "order": "Moduł historii transakcji"
+    },
+    "profile": {
+      "data": "Moduł zarządzania danymi klienta",
+      "status": "Moduł zarządzania statusem klienta",
+      "history": "Moduł historii zmian klienta",
+      "document": "Moduł zarządzania zniżką klienta",
+      "password": "Moduł zmiany hasła klienta"
+    },
+    "reports": {
+      "report": "Moduł raportów"
+    },
+    "ticket": {
+      "zone": "Moduł zarządzania strefami",
+      "line": "Moduł zarządzania liniami"
+    },
+    "wallet": {
+      "wallet": "Moduł zarządzania portmonetką"
+    }
+  }
+}

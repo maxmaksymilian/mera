@@ -1,0 +1,99 @@
+{
+  "common": {
+    "currency": "zł",
+    "empty": "brak",
+    "payment": {
+      "online": "Online",
+      "cash": "Gotówka",
+      "card": "Karta"
+    },
+    "reports": {
+      "type": {
+        "bus": "Autobus"
+      }
+    }
+  },
+  "header": {
+    "account_type": "Typ konta",
+    "full_name": "Użytkownik",
+    "card": "Nośnik",
+    "cardType": "Rodzaj nośnika",
+    "pesel": "Pesel",
+    "status": "Status",
+    "wallet": "Saldo portmonetki",
+    "type": "Rodzaj",
+    "description": "Szczegóły",
+    "user": "Użytkownik",
+    "client": "Klient",
+    "city": "Miasto",
+    "price": "Kwota",
+    "operator": "Operator",
+    "register_date": "Data rejestracji",
+    "expiration_date": "Data ważności",
+    "created_at": "Data sprzedaży",
+    "payment_method": "Typ płatności",
+    "order_number": "Numer transakcji",
+    "ticket_count": "Ilość",
+    "price_sum_net": "Wartość zamówionych netto",
+    "price_vat": "VAT",
+    "price_sum": "Wartość zamówionych brutto",
+    "owner_id": "Id. właściciela",
+    "owner_name": "Właściciel",
+    "user_id": "Id właściciela nadrzędnego",
+    "user_name": "Właściciel nadrzędny",
+    "lock_date": "Blokada do",
+    "permissions": "Uprawnienia",
+    "roles": "Role",
+    "role": "Rola",
+    "name": "Imię / Nazwisko",
+    "email": "Adres e-mail",
+    "roleName": "Nazwa roli",
+    "usersCount": "Liczba użytkowników",
+    "ticket": {
+      "name": "Bilet",
+      "start_date": "Ważny od",
+      "end_date": "Ważny do"
+    },
+    "transaction": {
+      "number": "Numer transakcji",
+      "created_at": "Data transakcji",
+      "receipt": "Paragon",
+      "invoice": "Faktura"
+    },
+    "case": {
+      "number": "Numer sprawy",
+      "created_at": "Data zgłoszenia",
+      "updated_at": "Zaktualizowano"
+    },
+    "cards": {
+      "name": "Nazwa karty",
+      "number": "Numer karty",
+      "activeTickets": "Aktywne bilety",
+      "expirationDate": "Termin ważności"
+    },
+    "reports": {
+      "price": "Cena jednostkowa",
+      "name": "Nazwa biletu",
+      "seller": "Sprzedający",
+      "cards": {
+        "type": "Typ nośnika",
+        "number": "Numer nośnika",
+        "expiration_date": "Data ważności",
+        "name": "Nazwa nośnika"
+      }
+    }
+  },
+  "button": {
+    "details": "Szczegóły",
+    "viewDetails": "Zobacz szczegóły"
+  },
+  "action": {
+    "createCase": "Załóż sprawę",
+    "downloadPdf": "Pobierz PDF",
+    "block": "Zablokuj",
+    "unblock": "Odblokuj",
+    "return": "Zwrócić bilet",
+    "returnInProgress": "W trakcie zwrotu",
+    "passwordReset": "Reset hasła"
+  }
+}

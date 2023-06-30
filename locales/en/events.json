@@ -1,0 +1,79 @@
+{
+  "events": {
+    "headline": "Wydarzenia",
+    "subHeadline": "Wyszukaj wydarzenia lokalne",
+    "searchInputPlaceholder": "Wyszukaj wydarzenie",
+    "backEventList": "Wróć do listy wydarzeń",
+    "oldEvent": "Wydarzenie z przeszłości - brak biletów w sprzedaży",
+    "eventsSection": {
+      "priceLabel": "Cena",
+      "buyTicketLabel": "Kup bilet",
+      "check": "Sprawdź"
+    },
+    "buyTicketSection": {
+      "adultTicketLabel": "Bilet osoba dorosła",
+      "childTicketLabel": "Bilet dziecko",
+      "pricePerPersonLabel": "zł / osoba"
+    },
+    "eventDetailsDesc": {
+      "headline": "Opis wydarzenia"
+    },
+    "eventDetailsInfo": {},
+    "eventsDetails": {
+      "ticketsLabel": "Bilety"
+    },
+    "eventsFilters": {
+      "all": "Wszystkie",
+      "exhibitions": "Wystawy",
+      "concerts": "Koncerty",
+      "workshops": "Warsztaty",
+      "forKids": "Dla dzieci",
+      "other": "Inne"
+    },
+    "eventsListing": {
+      "moreEventsBtn": "Pokaż więcej"
+    },
+    "loginCard": {
+      "headline": "Zaloguj się aby kupić bilet",
+      "subHeadline": "Zakup biletów możliwy dla Klienta zalogowanego.",
+      "logInBtn": "Zaloguj się",
+      "registerBtn": "Rejestracja"
+    },
+    "payNowAside": {
+      "headline": "Zakup biletów możliwy tylko za zalogowanych użytkowników",
+      "loginBtn": "Zaloguj się",
+      "registerBtn": "Załóż konto",
+      "yourOrderLabel": "Twoje zamówienie",
+      "ticketType": {
+        "adult": "Bilet dla opiekuna",
+        "child": "Bilet dla dziecka"
+      },
+      "totalPriceLabel": "Do zapłaty",
+      "checkboxLabel": "Zapłać z Tpay.com",
+      "buyTicketsBtn": "Kup bilety"
+    },
+    "payNowPanel": {
+      "totalPriceLabel": "Do zapłaty",
+      "payNowBtn": "Zapłać teraz"
+    },
+    "ticketPurchaseConfirmation": {
+      "headline": "Dziękujemy, Twoje bilety zostały zakupione",
+      "subHeadline": "Wysłaliśmy potwierdzenie transakcji na Twój adres email",
+      "downloadBtnLabel": "Zapisz potwierdzenie PDF",
+      "dateLabel": "Data wydarzenia",
+      "ticketType": {
+        "desktop": {
+          "adult": "Bilet dla opiekuna",
+          "child": "Bilet dla dziecka"
+        },
+        "mobile": {
+          "adult": "Bilet dziecko",
+          "child": "Bilet opiekun"
+        }
+      },
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "printPDFBtn": "Wydrukuj podsumowanie PDF",
+      "panelLinkLabel": "Przejdź do mojego konta"
+    }
+  }
+}

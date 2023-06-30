@@ -1,0 +1,113 @@
+{
+  "message": {
+    "my_profile": {
+      "created": "Utworzenie konta",
+      "updated": "Zmiana w moje dane",
+      "deleted": "Usunięcie konta"
+    },
+    "address_registered": {
+      "created": "Dodanie adresu zameldowania",
+      "updated": "Zmiana adresu zameldowania",
+      "deleted": "Usunięcie adresu zameldowania"
+    },
+    "address_residential": {
+      "created": "Dodanie adresu zamieszkania",
+      "updated": "Zmiana adresu zamieszkania",
+      "deleted": "Usunięcie adresu zamieszkania"
+    },
+    "address_company": {
+      "created": "Dodanie danych firmy",
+      "updated": "Zmiana danych firmy",
+      "deleted": "Usunięcie danych firmy"
+    },
+    "card": {
+      "created": "Dodanie nowego nośnika",
+      "updated": "Aktualizacja nośnika",
+      "deleted": "Usunięcie nośnika"
+    },
+    "my_card": {
+      "created": "Dodanie nowego nośnika",
+      "updated": "Aktualizacja nośnika",
+      "deleted": "Usunięcie nośnika"
+    },
+    "my_user": {
+      "created": "Dodanie nowego podopiecznego",
+      "updated": "Aktualizacja podopiecznego",
+      "deleted": "Usunięcie podopiecznego"
+    },
+    "user": {
+      "created": "Dodanie nowego użytkownika",
+      "updated": "Aktualizacja użytkownika",
+      "deleted": "Usunięcie użytkownika",
+      "password": "Zmiana hasła"
+    },
+    "profile": {
+      "created": "Dodanie profilu użytkownika",
+      "updated": "Aktualizacja profilu użytkownika",
+      "deleted": "Usunięcie profilu użytkownika"
+    }
+  },
+  "label": {
+    "profile": {
+      "first_name": "Imię",
+      "last_name": "Nazwisko",
+      "pesel": "Pesel",
+      "telephone": "Numer telefonu",
+      "birthday_date": "Data urodzenia",
+      "telephone_prefix": "Prefiks nr telefonu",
+      "company_nip": "NIP",
+      "company_name": "Nazwa firmy"
+    },
+    "user": {
+      "email": "Adres email",
+      "default_language": "Domyślny język"
+    },
+    "address_registered": {
+      "zip": "Kod pocztowy",
+      "city": "Miasto",
+      "number": "Nr domu",
+      "street": "Ulica",
+      "apt_number": "Nr mieszkania"
+    },
+    "address_residential": {
+      "zip": "Kod pocztowy",
+      "city": "Miasto",
+      "number": "Nr domu",
+      "street": "Ulica",
+      "apt_number": "Nr mieszkania"
+    },
+    "address_company": {
+      "zip": "Kod pocztowy",
+      "city": "Miasto",
+      "number": "Nr domu",
+      "street": "Ulica",
+      "apt_number": "Nr mieszkania"
+    },
+    "my_profile": {
+      "first_name": "Imię",
+      "last_name": "Nazwisko",
+      "pesel": "Pesel",
+      "telephone": "Numer telefonu",
+      "birthday_date": "Data urodzenia",
+      "telephone_prefix": "Prefiks nr telefonu"
+    },
+    "my_user": {
+      "email": "Adres email",
+      "default_language": "Domyślny język"
+    },
+    "card": {
+      "name": "Nazwa karty",
+      "type": "Rodzaj nośnika",
+      "number": "Numer karty",
+      "status": "Status",
+      "expiration_date": "Data ważności"
+    },
+    "my_card": {
+      "name": "Nazwa karty",
+      "type": "Rodzaj nośnika",
+      "number": "Numer karty",
+      "status": "Status",
+      "expiration_date": "Data ważności"
+    }
+  }
+}

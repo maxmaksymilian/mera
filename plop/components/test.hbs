@@ -1,0 +1,20 @@
+import React from 'react';
+import { render, screen } from '@/test-utils';
+
+import {{pascalCase name}} from '../{{kebabCase name}}';
+
+describe('Testing {{pascalCase name}}', () => {
+  it('should renders correctly with required and optional props', () => {
+    const props = {};
+
+    render(<{{pascalCase name}} {...props} />);
+
+    const {{camelCase name}}Node = screen.getByText(/{{pascalCase name}}$/i);
+
+    // the component is render
+    expect({{camelCase name}}Node).toBeInTheDocument();
+
+    // generating a snapshot
+    expect({{camelCase name}}Node).toMatchSnapshot();
+  });
+});

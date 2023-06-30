@@ -1,0 +1,162 @@
+{
+  "progressBarSection": {
+    "stepLabel": "Krok"
+  },
+  "steps": {
+    "registeredAddressLabel": "Adres zameldowania",
+    "residentialAddressLabel": "Adres zamieszkania",
+    "address": {
+      "input": {
+        "zip": {
+          "label": "Kod pocztowy",
+          "placeholder": "Podaj kod pocztowy"
+        },
+        "city": {
+          "label": "Miasto",
+          "placeholder": "Podaj miasto"
+        },
+        "street": {
+          "label": "Ulica",
+          "placeholder": "Podaj ulicę"
+        },
+        "streetNum": {
+          "label": "Nr domu"
+        },
+        "aptNum": {
+          "label": "Nr mieszkania"
+        }
+      },
+      "checkboxLabel": "Taki sam jak adres zameldowania?",
+      "denialBtnLabel": "Nie",
+      "approvalBtnLabel": "Tak",
+      "companyUserLabel": "Użytkownik firmowy",
+      "companyUserCheckboxLabel": "Jestem użytkownikiem firmowym?",
+      "company": {
+        "input": {
+          "name": {
+            "label": "Nazwa firmy",
+            "placeholder": "Podaj nazwę firmy"
+          },
+          "nip": {
+            "label": "Numer NIP",
+            "placeholder": "Podaj numer NIP"
+          }
+        }
+      }
+    },
+    "cardData": {
+      "input": {
+        "cardType": {
+          "label": "Wybierz rodzaj nośnika",
+          "placeholder": "Wybierz rodzaj nośnika"
+        },
+        "cardName": {
+          "label": "Nadaj nazwę karty",
+          "placeholder": "Np. Moja Karta Płatnicza"
+        },
+        "cardNumber": {
+          "label": "Numer karty",
+          "placeholder": "_ _ _ _ _ _"
+        },
+        "expirationDate": {
+          "label": "Data Ważności",
+          "placeholder": "mm/RR"
+        }
+      }
+    },
+    "discounts": {
+      "isDiscountLabel": "Czy jesteś uprawniony do zniżki?",
+      "input": {
+        "discountType": {
+          "label": "Wybierz rodzaj zniżki",
+          "placeholder": "Wybierz rodzaj zniżki"
+        },
+        "documentType": {
+          "label": "Rodzaj dokumentu",
+          "placeholder": "Wybierz rodzaj dokumentu"
+        },
+        "documentNumber": {
+          "label": "Numer dokumentu",
+          "placeholder": "Podaj numer"
+        },
+        "expirationDate": {
+          "label": "Data Ważności",
+          "placeholder": "mm/RR"
+        }
+      },
+      "files": {
+        "headline": "Wgraj skan dokumentu",
+        "info": "Pamiętaj, żeby załączyć czytelne skany obydwu stron dokumentu. Skany dokumentów zostaną przesłane do weryfikacji przez pracownika POKu. Weryfikacji możesz też dokonać w lokalnym Punkcie Obsługi Klienta",
+        "frontInputLabel": "Przód dokumentu",
+        "backInputLabel": "Tył dokumentu"
+      },
+      "formatsLabel": "Dopuszczalne formaty",
+      "maxFileWeightLabel": "Max rozmiar"
+    },
+    "summary": {
+      "documentType": "Rodzaj dokumentu",
+      "registeredAddressLabel": "Adres zameldowania",
+      "residentialAddressLabel": "Adres zamieszkania",
+      "streetShortcut": "Ul.",
+      "discountType": "Przysługująca zniżka",
+      "verificationDocumentLabel": "Dokument do weryfikacji",
+      "documentNumberLabel": "Numer",
+      "documentExpirationLabel": "Data ważności"
+    },
+    "welcome": {}
+  },
+  "wizardStepLayout": {
+    "firstStepBtnLabel": "Chcę uzupełnić konto",
+    "lastStepBtnLabel": "Przejdź do panelu",
+    "verificationBtnLabel": "Prześlij dane do weryfikacji",
+    "nextStepBtnLabel": "Przejdź dalej",
+    "welcomeLabel": "Witaj",
+    "laterBtnLabel": "Zrobię to później",
+    "prevButtonLabel": "Cofnij"
+  },
+  "customSelectOptions": {
+    "city_card": "Karta miejska",
+    "emv_card": "Karta płatnicza (kredytowa / debetowa)",
+    "student_card": "Legitymacja studencka"
+  },
+  "progressBarSteps": [
+    "Rodzaj nośnika",
+    "Dane adresowe",
+    "Uprawnienia zniżki",
+    "Podsumowanie"
+  ],
+  "stepsDataDesc": [
+    {
+      "headline": "Twoje konto zostało pomyślnie utworzone. Poświęć chwilę, aby uzupełnić brakujące dane niezbędne do pełnej aktywacji konta.",
+      "subHeadline": "Aktywne konto daje Ci wiele możliwości:"
+    },
+    {
+      "headline": "Wybierz rodzaj nośnika",
+      "subHeadline": "Wybierz rodzaj dokumentu, którym będziesz się posługiwał."
+    },
+    {
+      "headline": "Dane adresowe",
+      "subHeadline": "Podaj swoje dane adresowe"
+    },
+    {
+      "headline": "Uprawnienia zniżki (opcjonalne)",
+      "subHeadline": "Określ czy przysługują Ci jakieś zniżki i przedstaw skan dokumentu poświadczającego."
+    },
+    {
+      "headline": "Podsumowanie",
+      "subHeadline": "Sprawdź poprawność wprowadzonych danych"
+    },
+    {
+      "headline": "Sukces!",
+      "subHeadline": "Twoje dane zostały przekazane do weryfikacji. Poinformujemy Cię kiedy Twoje konto zostanie w pełni aktywowane."
+    }
+  ],
+  "welcomeListItems": [
+    "Zakup biletów do komunikacji miejskiej",
+    "Zakup biletów na wydarzenia",
+    "Monitorowanie ważności biletów",
+    "Załatwianie spraw online"
+  ],
+  "enter6CardNumber": "Podaj 6 pierwszych numerów karty",
+  "enter4LastDigits": "Podaj 6 pierwszych cyfr oraz 4 ostatnie"
+}
