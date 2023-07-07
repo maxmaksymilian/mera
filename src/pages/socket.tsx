@@ -1,9 +1,9 @@
 /* eslint-disable no-console */
 
-const SocketPage = () => {
-  const res = fetch(`https://ctc.centreoservice.com/api/Pok/getRoomID/6`);
+import { GetServerSideProps } from 'next';
 
-  console.log(res);
+const SocketPage = (props: any) => {
+  console.log(props);
 
   // const socket = io('https://ps.centreoservice.com', { reconnection: true });
 
@@ -30,23 +30,23 @@ const SocketPage = () => {
   return <p>socket</p>;
 };
 
-// export const getServerSideProps: GetServerSideProps = async () => {
-//   const res = await fetch(`https://ctc.centreoservice.com/api/Pok/getRoomID/6`);
+export const getServerSideProps: GetServerSideProps = async () => {
+  const res = await fetch(`https://ctc.centreoservice.com/api/Pok/getRoomID/6`);
 
-//   let data: any = {};
+  let data: any = {};
 
-//   if (res.ok) {
-//     data = await res.json();
-//   }
+  if (res.ok) {
+    data = await res.json();
+  }
 
-//   return {
-//     props: {
-//       id: data.id,
-//       pokID: data.pokID,
-//       paxID: data.paxID,
-//       roomID: data.roomID,
-//     },
-//   };
-// };
+  return {
+    props: {
+      id: data.id,
+      pokID: data.pokID,
+      paxID: data.paxID,
+      roomID: data.roomID,
+    },
+  };
+};
 
 export default SocketPage;
